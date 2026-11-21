@@ -55,7 +55,7 @@ function Navbar() {
   return (
     <nav className={`navbar navbar-expand-lg navbar-light sticky-top px-4 px-lg-5${scrolled ? " navbar-scrolled" : ""}`}>
       <NavLink to="/" className="navbar-brand d-flex align-items-center" aria-label="Tedex Design Consults home" onClick={closeMenus}>
-        <img src="/img/logo2.jpeg" alt="Tedex Design Consults" />
+        <img src="/img/logo2.png" alt="Tedex Design Consults" />
       </NavLink>
 
       <button
