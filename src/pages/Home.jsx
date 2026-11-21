@@ -4,6 +4,7 @@ import AboutSection from "../components/AboutSection";
 import ServicesSection from "../components/ServicesSection";
 import WhyChooseUs from "../components/WhyChooseUs";
 import ProjectsShowcase from "../components/ProjectsShowcase";
+import AppointmentSection from "../components/AppointmentSection";
 import { useLegacyPlugins } from "../hooks/useLegacyPlugins";
 
 function Home() {
@@ -17,6 +18,7 @@ function Home() {
       <ServicesSection />
       <WhyChooseUs />
       <ProjectsShowcase />
+      <AppointmentSection />
     </>
   );
 }
