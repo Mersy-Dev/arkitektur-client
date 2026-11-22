@@ -3,6 +3,8 @@ import { useSearchParams } from "react-router-dom";
 import PageHeader from "../components/PageHeader";
 import ProjectCard from "../components/projects/ProjectCard";
 import ProjectToolbar from "../components/projects/ProjectToolbar";
+import ProjectsProcess from "../components/projects/ProjectsProcess";
+import ProjectsCta from "../components/projects/ProjectsCta";
 import { useCategories, useProjectList } from "../hooks/useProjects";
 import { listProjects } from "../services/projects";
 
@@ -216,6 +218,10 @@ function Projects() {
           )}
         </div>
       </section>
+
+      <ProjectsProcess />
+
+      <ProjectsCta />
     </div>
   );
 }
