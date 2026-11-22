@@ -24,3 +24,8 @@ dist-ssr
 *.sw?
 .history
 history
+
+# Local environment files
+.env
+.env.*
+!.env.example
