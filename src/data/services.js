@@ -1,0 +1,115 @@
+// PLACEHOLDER copy, replace with Tedex's real service details
+
+export const services = [
+  {
+    id: "architecture",
+    slug: "architecture",
+    title: "Architecture",
+    icon: "fas fa-drafting-compass",
+    shortDescription: "Purposeful, context-led architecture designed for Ghana's climate and your everyday life.",
+    description: [
+      "Tedex Design Consults develops thoughtful residential and commercial architecture from first sketch to permit-ready information. Our team balances form, function, cost and the unique character of each site.",
+      "We work with you to refine the brief, test options and coordinate technical details so that the finished building feels resolved, buildable and distinctly yours.",
+    ],
+    features: ["Site analysis and measured surveys", "Concept and massing studies", "Planning and permit drawings", "Detailed architectural drawings", "Construction coordination support"],
+    deliverables: ["Concept drawings", "3D renders", "Permit-ready documents"],
+    timeline: "8 to 16 weeks",
+    bestFor: "New homes, offices and commercial buildings",
+    image: "/img/service-1.jpg",
+  },
+  {
+    id: "3d-animation",
+    slug: "3d-animation",
+    title: "3D Animation",
+    icon: "fas fa-cube",
+    shortDescription: "Immersive visualisations that communicate your design clearly before construction begins.",
+    description: [
+      "Our 3D visualisation service turns approved concepts into realistic still images and animated journeys. Scenes show materials, landscaping, lighting and scale in an accessible, engaging format.",
+      "These visuals support decision-making, marketing and stakeholder approvals, helping everyone align on the vision before costly changes are made on site.",
+    ],
+    features: ["Realistic exterior visualisation", "Interior and furniture views", "Day and evening lighting", "3D walkthrough or flythrough", "Revision rounds based on your brief"],
+    deliverables: ["Rendered images", "Walkthrough video", "Presentation-ready formats"],
+    timeline: "2 to 5 weeks",
+    bestFor: "Design approvals, investor pitches and property marketing",
+    image: "/img/service-2.jpg",
+  },
+  {
+    id: "house-planning",
+    slug: "house-planning",
+    title: "House Planning",
+    icon: "fas fa-ruler-combined",
+    shortDescription: "Practical floor plans that make everyday living comfortable, flexible and efficient.",
+    description: [
+      "We create customised house plans around your family, plot, budget and aspirations. Each layout considers natural light, ventilation, privacy, circulation and future expansion.",
+      "You will receive clear options and coordinated plans that make it easier to compare choices, plan costs and brief contractors accurately.",
+    ],
+    features: ["Brief and site review", "Room layout alternatives", "Furniture and circulation studies", "Structural coordination checks", "Drawing revisions and final issue"],
+    deliverables: ["Floor plans", "Site and elevation plans", "Dimensioned drawing set"],
+    timeline: "4 to 8 weeks",
+    bestFor: "New homes and residential extensions",
+    image: "/img/service-3.jpg",
+  },
+  {
+    id: "interior-design",
+    slug: "interior-design",
+    title: "Interior Design",
+    icon: "fas fa-couch",
+    shortDescription: "Interior schemes that unite comfort, Ghanaian character and durable modern finishes.",
+    description: [
+      "Our interior design team develops cohesive spaces through materials, colour, furniture, lighting and custom detailing. We consider how each room should feel as well as how it will function.",
+      "From living spaces and kitchens to workplaces and hospitality interiors, we coordinate the visual story and provide specifications that installers can follow.",
+    ],
+    features: ["Interior concept development", "Colour and material palettes", "Furniture and fixture selection", "Lighting and ceiling layouts", "Joinery and finishing schedules"],
+    deliverables: ["Interior mood boards", "Furniture plans", "Finish specifications"],
+    timeline: "3 to 10 weeks",
+    bestFor: "Homes, offices, retail and hospitality spaces",
+    image: "/img/service-4.jpg",
+  },
+  {
+    id: "renovation",
+    slug: "renovation",
+    title: "Renovation",
+    icon: "fas fa-hammer",
+    shortDescription: "Careful upgrades that improve existing buildings without losing what makes them valuable.",
+    description: [
+      "We help property owners rework and renew existing homes and commercial buildings. The process begins with a practical survey and a clear understanding of which elements to preserve, improve or replace.",
+      "Our recommendations address layout, finishes, services and phased implementation, helping you achieve a meaningful transformation while managing disruption and cost.",
+    ],
+    features: ["Existing-building survey", "Renovation strategy", "Layout and finish options", "Service upgrade coordination", "Contractor and site guidance"],
+    deliverables: ["Condition report", "Renovation drawings", "Scope and finishes schedule"],
+    timeline: "6 to 14 weeks for design",
+    bestFor: "Existing homes and commercial buildings",
+    image: "/img/service-5.jpg",
+  },
+  {
+    id: "construction",
+    slug: "construction",
+    title: "Construction",
+    icon: "fas fa-hard-hat",
+    shortDescription: "Coordinated construction support that helps turn the approved design into a quality finished space.",
+    description: [
+      "Tedex provides construction-phase support to keep decisions, drawings and site work aligned. Our role can include contractor coordination, progress reviews and quality checks based on the agreed scope.",
+      "We prioritise clear communication and practical problem-solving so that variations are understood, workmanship is monitored and the project moves toward a well-documented handover.",
+    ],
+    features: ["Tender and contractor support", "Construction document coordination", "Site meetings and progress reviews", "Quality and finish inspections", "Snagging and handover assistance"],
+    deliverables: ["Construction programme", "Site reports", "Handover documents"],
+    timeline: "Project and scope dependent",
+    bestFor: "Approved residential and commercial projects",
+    image: "/img/service-6.jpg",
+  },
+];
+
+export const faqs = [
+  { question: "How does a project start?", answer: "We begin with a consultation to understand your site, goals, budget and preferred schedule. From there, we confirm the scope and prepare a clear proposal." },
+  { question: "How long does design take?", answer: "Simple house planning may take several weeks, while detailed architecture can take a few months. Your timeline depends on scope, approvals and revision speed." },
+  { question: "Do you handle permits and approvals?", answer: "Yes. Permit-ready documentation and guidance are available within an agreed scope. Requirements vary by municipality and project type." },
+  { question: "How are professional fees structured?", answer: "Fees can be fixed for a defined scope or staged around project milestones. We provide a written scope and fee breakdown before work begins." },
+  { question: "Do you work outside Accra?", answer: "Yes. We welcome projects across Ghana and can coordinate site visits, consultants and reviews according to the project's location." },
+  { question: "Can you renovate an existing building?", answer: "Yes. We assess the existing structure and services, then develop a renovation concept that improves the building while protecting valuable features." },
+];
+
+export const introHighlights = [
+  { icon: "fas fa-project-diagram", title: "Concept to completion", text: "One coordinated team supports the journey from the first idea to handover." },
+  { icon: "fas fa-award", title: "Licensed, experienced team", text: "Professional guidance informed by local practice and practical project experience." },
+  { icon: "fas fa-comments", title: "Transparent communication", text: "Clear updates, defined scopes and decisions documented at every key stage." },
+];
