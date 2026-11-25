@@ -23,15 +23,19 @@ const features = [
   },
 ];
 
-function WhyChooseUs() {
+function WhyChooseUs({
+  label = whyChooseUsContent.label,
+  heading = whyChooseUsContent.heading,
+  intro = whyChooseUsContent.intro,
+}) {
   return (
     <div className="container-xxl py-5 why-choose-section">
       <div className="container">
         <div className="row g-5 align-items-center">
           <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-            <h4 className="section-title why-choose-title">{whyChooseUsContent.label}</h4>
-            <h1 className="display-5 mb-4">{whyChooseUsContent.heading}</h1>
-            <p className="mb-4 why-choose-intro">{whyChooseUsContent.intro}</p>
+            <h4 className="section-title why-choose-title">{label}</h4>
+            <h1 className="display-5 mb-4">{heading}</h1>
+            <p className="mb-4 why-choose-intro">{intro}</p>
 
             <div className="row g-4">
               {features.map((feature) => (

@@ -8,7 +8,14 @@ const trustFigures = [
   { value: 98, suffix: "%", label: "Client Satisfaction" },
 ];
 
-function ProjectsCta() {
+function ProjectsCta({
+  heading = "Have A Project In Mind?",
+  intro = "Let's turn your idea into a space that breathes life. Book a consultation and we will take it from there.",
+  primaryLabel = "Book Appointment",
+  primaryTo = "/appointment",
+  secondaryLabel = "Contact Us",
+  secondaryTo = "/contact",
+}) {
   const bandRef = useRef(null);
   const frameRef = useRef(null);
   const [counts, setCounts] = useState(trustFigures.map(() => 0));
@@ -69,11 +76,11 @@ function ProjectsCta() {
           <span className="projects-cta__square" aria-hidden="true" />
 
           <div className="projects-cta__content">
-            <h2>Have A Project In Mind?</h2>
-            <p>Let's turn your idea into a space that breathes life. Book a consultation and we will take it from there.</p>
+            <h2>{heading}</h2>
+            <p>{intro}</p>
             <div className="projects-cta__actions">
-              <Link className="projects-cta__primary" to="/appointment">Book Appointment</Link>
-              <Link className="projects-cta__outline" to="/contact">Contact Us</Link>
+              <Link className="projects-cta__primary" to={primaryTo}>{primaryLabel}</Link>
+              <Link className="projects-cta__outline" to={secondaryTo}>{secondaryLabel}</Link>
             </div>
           </div>
 
