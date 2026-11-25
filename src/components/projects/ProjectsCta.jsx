@@ -15,6 +15,7 @@ function ProjectsCta({
   primaryTo = "/appointment",
   secondaryLabel = "Contact Us",
   secondaryTo = "/contact",
+  showSecondary = true,
 }) {
   const bandRef = useRef(null);
   const frameRef = useRef(null);
@@ -80,7 +81,7 @@ function ProjectsCta({
             <p>{intro}</p>
             <div className="projects-cta__actions">
               <Link className="projects-cta__primary" to={primaryTo}>{primaryLabel}</Link>
-              <Link className="projects-cta__outline" to={secondaryTo}>{secondaryLabel}</Link>
+              {showSecondary && <Link className="projects-cta__outline" to={secondaryTo}>{secondaryLabel}</Link>}
             </div>
           </div>
 
